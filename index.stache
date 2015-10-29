@@ -1,0 +1,25 @@
+<can-import from="app.css!"/>
+
+<ul>
+    <li class="{{#is color 'purple'}}active{{/is}}">
+        <a href="/login/purple">Login Page</a>
+    </li>
+    <li class="{{#is color 'green'}}active{{/is}}">
+        <a href="/dashboard/green">Dashboard</a>
+    </li>
+</ul>
+
+<!--Map Page Values to Components-->
+<div id="content">
+    <!--Map components to AppViewModel properties-->
+    {{#eq page 'login'}}
+        <app-login/>
+    {{else}}
+        <app-user-toolbar />
+        <app-dashboard />
+    {{/eq}}
+</div>
+
+<div class="{{color}}">
+    <h3>{{color}}</h3>
+</div>

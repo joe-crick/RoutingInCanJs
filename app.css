@@ -1,0 +1,103 @@
+* {
+  font-family: Tahoma, sans-serif;
+}
+ul {
+  padding-left: 0;
+}
+ul li{
+  display: inline-block;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px 20px;
+}
+li a {
+  text-decoration: none;
+  color: #767676;
+}
+li.active {
+  border-color: black;
+  font-weight: bold;
+
+  animation-duration: .3s;
+  animation-name: buttons;
+}
+li.active a {
+  color: black;
+}
+@keyframes buttons {
+  0% {
+    transform: scale(.95);
+  }
+  20% {
+    transform: scale(.88);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+h2 {
+  color: #555;
+}
+.green {
+  background-color: #CAECCA;
+  color: green;
+  padding: 20px;
+  border-radius: 4px;
+  width: 25%;
+  min-width: 200px;
+
+  animation-duration: .5s;
+  animation-name: comeInGreen;
+}
+
+@keyframes comeInGreen {
+  0% {
+    transform: scale(.3);
+    background-color: white;
+    border-radius: 25%;
+    color: white;
+    margin-top: 10%;
+  }
+  50% {
+    background-color: green;
+    color: purple;
+  }
+  100% {
+    transform: scale(1.1);
+    background-color: #CAECCA;
+    margin-top: 0%;
+  }
+}
+
+.purple {
+  background-color: #DAC6DE;
+  color: purple;
+  padding: 20px;
+  border-radius: 4px;
+  width: 25%;
+  min-width: 200px;
+
+  animation-duration: .5s;
+  animation-name: comeInPurple;
+}
+
+@keyframes comeInPurple {
+  0% {
+    transform: scale(.3);
+    background-color: white;
+    border-radius: 25%;
+    color: white;
+    margin-top: 10%;
+  }
+  50% {
+    background-color: purple;
+    color: purple;
+  }
+  100% {
+    transform: scale(1.1);
+    background-color: #DAC6DE;
+    margin-top: 0%;
+  }
+}

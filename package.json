@@ -1,0 +1,21 @@
+{
+  "name": "app-state",
+  "version": "1.0.0",
+  "description": "App State example project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "system": {},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jquery": "^2.1.4",
+    "steal-tools": "^0.10.7"
+  },
+  "dependencies": {
+    "can": "^2.2.7",
+    "steal": "^0.10.5",
+    "yal-log": "0.0.2"
+  }
+}
