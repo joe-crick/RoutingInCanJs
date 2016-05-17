@@ -1,6 +1,6 @@
 import can from 'can';
 import $ from 'jquery';
-import 'node_modules/can/map/define/define';
+import 'can/map/define/';
 
 var ApplicationViewModel = can.Map.extend({
     define: {

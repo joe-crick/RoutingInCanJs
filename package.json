@@ -11,11 +11,11 @@
   "license": "ISC",
   "devDependencies": {
     "jquery": "^2.1.4",
-    "steal-tools": "^0.10.7"
+    "steal-tools": "^0.16.3"
   },
   "dependencies": {
-    "can": "^2.2.7",
-    "steal": "^0.10.5",
+    "can": "^2.3.23",
+    "steal": "^0.16.11",
     "yal-log": "0.0.2"
   }
 }
