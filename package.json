@@ -10,12 +10,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jquery": "^2.1.4",
-    "steal-tools": "^0.16.3"
+    "jquery": "^3.1.1",
+    "steal-tools": "^1.1.1"
   },
   "dependencies": {
-    "can": "^2.3.23",
-    "steal": "^0.16.11",
+    "can": "^3.4.1",
+    "steal": "^1.1.0",
     "yal-log": "0.0.2"
   }
 }
